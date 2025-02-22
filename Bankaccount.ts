@@ -32,6 +32,8 @@ constructor(ownername: string, balance: number){
 }
 const myBankaccount = new BankAccount("Alice", 100)
 const friendBankaccount = new BankAccount("Denis", 200)
+const friendBankaccount1 = new BankAccount("Sanya", 200)
+const friendBankaccount2 = new BankAccount("Illya", 200)
 myBankaccount.withdraw(110)
 myBankaccount.transfer(50, friendBankaccount)
 myBankaccount.transfer(50, friendBankaccount)

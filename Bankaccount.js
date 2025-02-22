@@ -27,7 +27,10 @@ var BankAccount = /** @class */ (function () {
 }());
 var myBankaccount = new BankAccount("Alice", 100);
 var friendBankaccount = new BankAccount("Denis", 200);
+var friendBankaccount1 = new BankAccount("Sanya", 200);
+var friendBankaccount2 = new BankAccount("Illya", 200);
 myBankaccount.withdraw(110);
+myBankaccount.transfer(50, friendBankaccount);
 myBankaccount.transfer(50, friendBankaccount);
 console.log(friendBankaccount.getBalance());
 console.log(myBankaccount.getBalance());
